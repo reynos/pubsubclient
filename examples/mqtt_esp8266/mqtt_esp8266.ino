@@ -82,7 +82,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
     // but actually the LED is on; this is because
     // it is acive low on the ESP-01)
   } else {
-    digitalWrite(BUILTIN_LED, HIGH);  // Turn the LED off by making the voltage HIGH
+    digitalWrite(BUILTIN_LED, HIGH);  // Turn the LED off by making the voltage HIGH 
   }
 
 }
